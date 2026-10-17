@@ -14,6 +14,10 @@ My stats: 14 days uptime, 2.4k attacks blocked, 0 breaches.
 2. ufw default deny + allow 2222
 3. Harden sshd_config
 
+## Thanks to r/VPS community
+- @Faye-Vozora - KbdInteractive fix + Vozora model
+- @ExpertPath - IP whitelisting
+- @Linux4All - Provider console trick
 
 ---
 
