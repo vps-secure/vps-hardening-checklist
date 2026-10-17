@@ -13,6 +13,20 @@ My stats: 14 days uptime, 2.4k attacks blocked, 0 breaches.
 1. Create non-root user + SSH key
 2. ufw default deny + allow 2222
 3. Harden sshd_config
+
+
+---
+
+## Need help hardening your VPS?
+
+I offer $49 VPS hardening for cheap VPS (Contabo, Hetzner, etc) - 30min setup.
+
+📧 Email: antigun4@gmail.com
+💬 Reddit: u/vps-secure
+
+I secure: UFW, SSH keys, Fail2Ban, auto-updates.
+
+Check my work: `./harden.sh`
 4. Install Fail2Ban
 5. Auto-updates
 
