@@ -1,2 +1,20 @@
-# vps-hardening-checklist
-Hardened Arch VPS - UFW SSH Fail2Ban setup for $5 Contabo - 2.4k attacks blocked
+# Hardened Arch VPS Checklist
+> Cheap Contabo VPS ($5) gets brute-forced in 15 minutes with default root + password on port 22.
+
+My stats: 14 days uptime, 2.4k attacks blocked, 0 breaches.
+
+### My Stack
+- UFW: default deny, allow 2222, 80, 443
+- SSH: Port 2222, key-only, root disabled
+- Fail2Ban: 5 retry, 1h ban
+- Auto-updates weekly
+
+### Day 1 Checklist
+1. Create non-root user + SSH key
+2. ufw default deny + allow 2222
+3. Harden sshd_config
+4. Install Fail2Ban
+5. Auto-updates
+
+Full script coming soon. PRs welcome!
+Built by @vps-secure
